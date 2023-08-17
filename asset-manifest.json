@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fe-diplom-new/static/css/main.073c9b0a.css",
+    "main.js": "/fe-diplom-new/static/js/main.aff4abd6.js",
+    "static/js/787.d6153b4f.chunk.js": "/fe-diplom-new/static/js/787.d6153b4f.chunk.js",
+    "static/media/logo.svg": "/fe-diplom-new/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/fe-diplom-new/index.html",
+    "main.073c9b0a.css.map": "/fe-diplom-new/static/css/main.073c9b0a.css.map",
+    "main.aff4abd6.js.map": "/fe-diplom-new/static/js/main.aff4abd6.js.map",
+    "787.d6153b4f.chunk.js.map": "/fe-diplom-new/static/js/787.d6153b4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.aff4abd6.js"
+  ]
+}
