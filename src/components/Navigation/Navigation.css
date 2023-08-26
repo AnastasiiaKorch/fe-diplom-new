@@ -1,0 +1,23 @@
+.header__navigation {
+    display: flex;
+    height: 50px;
+    background-color: #2e2d2d;
+    align-items: center;
+
+}
+
+.header__navigation__link {
+    margin-right: 60px;
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+
+.header__navigation__link a {
+    color: white;
+}
+
+.header__navigation__link a:hover {
+    color: #faba19;
+    transition: color 0.5s;
+}

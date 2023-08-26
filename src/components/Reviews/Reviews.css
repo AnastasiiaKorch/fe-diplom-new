@@ -1,0 +1,49 @@
+.reviews{
+    margin-top: 50px;
+    padding-left: 20px;
+    margin-bottom: 80px;
+}
+
+.reviews__title{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.reviews__cards {
+    display: flex;
+    margin-top: 70px;
+
+}
+
+.Review__card{
+    display: flex;
+}
+
+.Review__card__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.Review__card__text {
+    color: grey;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 20px;
+}
+.Review__card__quote{
+    position: relative;
+}
+
+.Review__card__open {
+    position: absolute;
+    left: -1rem;
+}
+
+.Review__card__close {
+    position: absolute;
+    right: -1rem;
+    bottom: -0.5rem;
+}
