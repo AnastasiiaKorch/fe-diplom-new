@@ -1,16 +1,38 @@
 {
   "files": {
-    "main.css": "/fe-diplom-new/static/css/main.073c9b0a.css",
-    "main.js": "/fe-diplom-new/static/js/main.aff4abd6.js",
+    "main.css": "/fe-diplom-new/static/css/main.7a7ac3f0.css",
+    "main.js": "/fe-diplom-new/static/js/main.43e53f18.js",
     "static/js/787.d6153b4f.chunk.js": "/fe-diplom-new/static/js/787.d6153b4f.chunk.js",
-    "static/media/logo.svg": "/fe-diplom-new/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/background-main.png": "/fe-diplom-new/static/media/background-main.342962d46ac521ac491d.png",
+    "static/media/background-middle.png": "/fe-diplom-new/static/media/background-middle.36e82725212d69a1c278.png",
+    "static/media/arrows.svg": "/fe-diplom-new/static/media/arrows.2986b46c6288c433a46867e3379961ca.svg",
+    "static/media/evgenii.png": "/fe-diplom-new/static/media/evgenii.1d5c47e24bb602c5e4e1.png",
+    "static/media/ekaterina.png": "/fe-diplom-new/static/media/ekaterina.d57edf58924d3a96d3c9.png",
+    "static/media/directions.svg": "/fe-diplom-new/static/media/directions.007a7e222a70fc01752871749ae1083c.svg",
+    "static/media/skype.svg": "/fe-diplom-new/static/media/skype.220e86f2dfe3e86003d8a1e2165f8ddf.svg",
+    "static/media/linkedin.svg": "/fe-diplom-new/static/media/linkedin.9e1258b734968f4d22bf657c04c1223c.svg",
+    "static/media/location.svg": "/fe-diplom-new/static/media/location.962939a938630c5712c0fda756107841.svg",
+    "static/media/google.svg": "/fe-diplom-new/static/media/google.30589544e8f01d174bda51733ca3c2f1.svg",
+    "static/media/date.svg": "/fe-diplom-new/static/media/date.708a9b513c8caf1e47f6466925914576.svg",
+    "static/media/twitter.svg": "/fe-diplom-new/static/media/twitter.935ee6e650fd8b2b376a8924f788b191.svg",
+    "static/media/email.svg": "/fe-diplom-new/static/media/email.4701958975986a6e9797bd981b82ec40.svg",
+    "static/media/office.svg": "/fe-diplom-new/static/media/office.2823d485d80e4909b4c7213afacc3929.svg",
+    "static/media/facebook.svg": "/fe-diplom-new/static/media/facebook.a63fbe0e663a852cb69f7fe8235648ba.svg",
+    "static/media/youtube.svg": "/fe-diplom-new/static/media/youtube.ca8ba8078e7960fcaef0ccc635cd2b50.svg",
+    "static/media/phone.svg": "/fe-diplom-new/static/media/phone.a14a18b3d296e2341ed8b24242a315b6.svg",
+    "static/media/error.svg": "/fe-diplom-new/static/media/error.f617ffc64fffb160643e5d9b9871dac8.svg",
+    "static/media/order.svg": "/fe-diplom-new/static/media/order.b3ca47c19a05f94c0d5580887f2ea91a.svg",
     "index.html": "/fe-diplom-new/index.html",
-    "main.073c9b0a.css.map": "/fe-diplom-new/static/css/main.073c9b0a.css.map",
-    "main.aff4abd6.js.map": "/fe-diplom-new/static/js/main.aff4abd6.js.map",
+    "static/media/info.svg": "/fe-diplom-new/static/media/info.8160a75875ac750a5600fe36a83a6418.svg",
+    "static/media/go-up.svg": "/fe-diplom-new/static/media/go-up.c8b90e384b0adc6cd427b6581ef15617.svg",
+    "static/media/quote-open.svg": "/fe-diplom-new/static/media/quote-open.c20fdb4d02c739622dba4c956c1593fb.svg",
+    "static/media/quote-close.svg": "/fe-diplom-new/static/media/quote-close.ebbd5a285a8b280aacf7d348c5a865bc.svg",
+    "main.7a7ac3f0.css.map": "/fe-diplom-new/static/css/main.7a7ac3f0.css.map",
+    "main.43e53f18.js.map": "/fe-diplom-new/static/js/main.43e53f18.js.map",
     "787.d6153b4f.chunk.js.map": "/fe-diplom-new/static/js/787.d6153b4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.aff4abd6.js"
+    "static/css/main.7a7ac3f0.css",
+    "static/js/main.43e53f18.js"
   ]
 }
