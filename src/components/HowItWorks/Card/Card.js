@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from 'prop-types'
-import "./Card.css"
+import styles from "./Card.module.scss"
 
 function Card({img, alt, text}){
  return (
-   <div className="HowItWorks__cards_wrapper">
-     <div className="HowItWorks__card">
-       <img src={img} alt={alt}/>
+   <div className={styles.card}>
+     <div className={styles.card__iconContainer}>
+       <img className={styles.card__icon} src={img} alt={alt}/>
      </div>
-     <div className="HowItWorks__card__text">{text}</div>
+     <div className={styles.card__text}>{text}</div>
    </div>
  )
 }

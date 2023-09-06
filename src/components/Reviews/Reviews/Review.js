@@ -2,25 +2,26 @@ import React from "react";
 import PropTypes from "prop-types";
 import openQuote from './img/quote-open.svg';
 import closeQuote from './img/quote-close.svg';
+import styles from './Review.module.scss'
 
 function Review ({img, name, head, text}){
   return(
-    <div className="Review__card">
-      <div className="Review__card__avatar">
+    <div className={styles.card}>
+      <div className={styles.card__avatar}>
         <img src={img} alt="аватар" />
       </div>
       <div>
-        <div className="Review__card__title">{name}</div>
-        <div className="Review__card__text">
-          <span className="Review__card__quote">
-            <img className="Review__card__open"
+        <div className={styles.card__title}>{name}</div>
+        <div className={styles.card__text}>
+          <span>
+            <img className={styles.card__open}
               src={openQuote}
               alt="open quote"
             />
             {head} <br/>
             {text}
              <img
-             className="Review__card__close"
+             className={styles.card__close}
              src={closeQuote}
               alt="closing quote"
             />

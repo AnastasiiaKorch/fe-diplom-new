@@ -1,0 +1,21 @@
+@import '../../scss/mixins';
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .title {
+    @include font(
+                    var(--fw-1),
+                    var(--fs-72),
+                    var(--fh-84),
+                    var(--color-main-light)
+    );
+    width: 51rem;
+    &-bold {
+      font-weight: var(--fw-7);
+    }
+  }
+}
+

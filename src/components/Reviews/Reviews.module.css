@@ -1,0 +1,22 @@
+.reviews {
+  padding: 15rem 2rem 10rem 2rem;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 75rem;
+  background: var(--color-main-light);
+  color: var(--color-main-dark);
+}
+.reviews__title {
+  font-weight: var(--fw-5);
+  font-size: var(--fs-36);
+  line-height: var(--fh-42);
+  text-transform: uppercase;
+}
+.reviews__cards {
+  margin-top: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}

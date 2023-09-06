@@ -1,0 +1,12 @@
+.logo {
+  font-weight: var(--fw-9);
+  font-size: var(--fs-36);
+  line-height: var(--fh-42);
+  color: var(--color-secondary-light);
+  height: 4.9rem;
+  margin-top: 1.5rem;
+  margin-left: 6rem;
+}
+.logo:hover {
+  color: var(--color-hover);
+}

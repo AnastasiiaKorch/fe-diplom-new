@@ -1,15 +1,20 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './App.scss';
 
-import Layout from "./components/Layout";
+import MainPage from "./pages/MainPages/MainPage";
+import TrainSelectionPage from "./pages/TrainSelectionPage/TrainSelectionPage";
+import links from "./data/links";
 
 
 
 function App() {
   return (
     <BrowserRouter>
-  <Layout />
+      <Routes>
+        <Route path={links.main} element={<MainPage />} />
+        <Route path={links.trains} element={<TrainSelectionPage />} />
+      </Routes>
     </BrowserRouter>
   );
 }

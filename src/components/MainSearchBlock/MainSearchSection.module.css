@@ -1,0 +1,231 @@
+.wrapper .form {
+  background-color: var(--color-search-block);
+  min-width: 100%;
+  min-height: 100%;
+  padding: 8rem 2.4rem 5rem 2.1rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.wrapper .form-wide {
+  padding: 2.5rem 4rem 5rem 4rem;
+}
+.wrapper .form .inputGroup {
+  margin-bottom: 2rem;
+  min-width: 68.5rem;
+}
+.wrapper .form .inputGroup-wide {
+  margin-right: 0.1rem;
+}
+.wrapper .form .inputGroup-regular {
+  margin-bottom: 6rem;
+}
+.wrapper .form .inputGroup__header {
+  font-weight: var(--fw-3);
+  font-size: var(--fs-30);
+  line-height: var(--fh-35);
+  color: var(--color-main-light);
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+}
+.wrapper .form .inputGroup__header-invalid {
+  color: var(--color-error-light);
+}
+.wrapper .form .inputGroup__directions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: var(--fw-4);
+  font-size: var(--fs-18);
+  line-height: var(--fh-21);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper .form .inputGroup__directions .direction {
+  position: relative;
+}
+.wrapper .form .inputGroup__directions .direction__input {
+  min-width: 32rem;
+  max-width: 32rem;
+  min-height: 6rem;
+  max-height: 6rem;
+  padding: 1.9rem 7rem 2rem 2.1rem;
+  border-radius: 0.3rem;
+  background-color: var(--color-main-light);
+  text-transform: capitalize;
+}
+.wrapper .form .inputGroup__directions .direction__input-invalid {
+  border: 0.3rem solid var(--color-error-light);
+}
+.wrapper .form .inputGroup__directions .direction__input::-webkit-input-placeholder {
+  color: var(--color-secondary-light);
+}
+.wrapper .form .inputGroup__directions .direction__input::-moz-placeholder {
+  color: var(--color-secondary-light);
+}
+.wrapper .form .inputGroup__directions .direction__input:-ms-input-placeholder {
+  color: var(--color-secondary-light);
+}
+.wrapper .form .inputGroup__directions .direction__input::-ms-input-placeholder {
+  color: var(--color-secondary-light);
+}
+.wrapper .form .inputGroup__directions .direction__input::placeholder {
+  color: var(--color-secondary-light);
+}
+.wrapper .form .inputGroup__directions .direction__icon {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.7rem;
+  width: 2.1rem;
+  height: 3rem;
+}
+.wrapper .form .inputGroup__directions .direction__icon > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.wrapper .form .inputGroup__directions .buttonArrows {
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 0;
+  position: relative;
+  cursor: pointer;
+}
+.wrapper .form .inputGroup__directions .buttonArrows > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.wrapper .form .inputGroup__dates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: var(--fw-4);
+  font-size: var(--fs-18);
+  line-height: var(--fh-21);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.wrapper .form .inputGroup__dates .date {
+  position: relative;
+}
+.wrapper .form .inputGroup__dates .date__input {
+  min-width: 32rem;
+  max-width: 32rem;
+  min-height: 6rem;
+  max-height: 6rem;
+  padding: 1.9rem 7rem 2rem 2.1rem;
+  border-radius: 0.3rem;
+  background-color: var(--color-main-light);
+  text-transform: capitalize;
+}
+.wrapper .form .inputGroup__dates .date__input-invalid {
+  border: 0.3rem solid var(--color-error-light);
+}
+.wrapper .form .inputGroup__dates .date__input::-webkit-input-placeholder {
+  color: var(--color-secondary-light);
+}
+.wrapper .form .inputGroup__dates .date__input::-moz-placeholder {
+  color: var(--color-secondary-light);
+}
+.wrapper .form .inputGroup__dates .date__input:-ms-input-placeholder {
+  color: var(--color-secondary-light);
+}
+.wrapper .form .inputGroup__dates .date__input::-ms-input-placeholder {
+  color: var(--color-secondary-light);
+}
+.wrapper .form .inputGroup__dates .date__input::placeholder {
+  color: var(--color-secondary-light);
+}
+.wrapper .form .inputGroup__dates .date__icon {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.7rem;
+  width: 2.1rem;
+  height: 3rem;
+}
+.wrapper .form .inputGroup__dates .date__icon > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.wrapper .form .button {
+  color: var(--color-main-dark);
+  margin-top: 1.8rem;
+  margin-bottom: auto;
+  justify-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: auto;
+  text-transform: uppercase;
+  font-weight: var(--fw-7);
+  font-size: var(--fs-24);
+  line-height: var(--fh-28);
+  padding: 1.7rem 6.5rem;
+  background-color: var(--color-yellow-orange);
+  border-radius: 0.5rem;
+}
+.wrapper .form .button-invalid {
+  background-color: var(--color-grey);
+  color: var(--color-main-light);
+}
+.wrapper .form .button:hover, .wrapper .form .button:focus {
+  background-color: var(--color-yellow-orange);
+  -webkit-filter: var(--filter);
+          filter: var(--filter);
+}
+.wrapper .form .button:active {
+  color: var(--color-yellow-orange);
+  background-color: transparent;
+  border: 0.1rem solid var(--color-yellow-orange);
+  -webkit-filter: var(--filter);
+          filter: var(--filter);
+}
+.wrapper .form .button:disabled {
+  background-color: var(--color-grey);
+  color: var(--color-main-light);
+}
+
+.regular {
+  min-width: 73rem;
+  max-width: 73rem;
+  height: 56.5rem;
+}
+
+.wide {
+  min-width: 149rem;
+  max-width: 149rem;
+  height: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+

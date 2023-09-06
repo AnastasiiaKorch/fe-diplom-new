@@ -1,0 +1,105 @@
+.footer {
+  font-weight: var(--fw-4);
+  font-size: var(--fs-24);
+  line-height: var(--fh-28);
+  color: var(--color-main-light);
+  background-color: var(--color-main-dark);
+}
+
+.wrapper {
+  padding-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.contact > h3 {
+  padding-bottom: 3rem;
+  color: var(--color-main-light);
+}
+
+.subscription > h3 {
+  padding-bottom: 3rem;
+  color: var(--color-main-light);
+}
+.subscription__subheader {
+  font-weight: var(--fw-4);
+  font-size: var(--fs-24);
+  line-height: var(--fh-28);
+  color: var(--color-main-light);
+  margin-bottom: 2rem;
+}
+.subscription .loading {
+  margin-top: 0.5rem;
+  background-color: var(--color-hover);
+  color: var(--color-secondary-dark);
+}
+.subscription .error {
+  margin-top: 0.5rem;
+  background-color: var(--color-error);
+}
+
+.inputGroup__input {
+  padding: 1.3rem;
+  width: 30rem;
+}
+.inputGroup__btn {
+  background-color: transparent;
+  color: var(--color-main-light);
+  text-align: center;
+  border: 0.1rem solid var(--color-secondary-light);
+  border-radius: 0.3rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 1.3rem;
+  margin-left: 3.3rem;
+}
+.inputGroup__btn:hover {
+  background-color: var(--color-hover);
+  color: var(--color-secondary-dark);
+  border-color: var(--color-hover);
+}
+.inputGroup__btn:active {
+  background-color: var(--color-main-light);
+  color: var(--color-secondary-dark);
+  border-color: var(--color-main-light);
+}
+
+.subscribe {
+  margin-top: 4.5rem;
+}
+.subscribe > h3 {
+  padding-bottom: 3rem;
+  color: var(--color-main-light);
+}
+
+.bottomNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 3.5rem;
+  border-top: 0.1rem solid var(--color-secondary-light);
+  padding-right: 2rem;
+}
+.bottomNav__icon {
+  width: 3.6rem;
+  height: 3.6rem;
+}
+.bottomNav__year {
+  font-weight: var(--fw-3);
+  font-size: var(--fs-24);
+  line-height: var(--fh-28);
+  text-transform: uppercase;
+}

@@ -1,15 +1,14 @@
 import React from "react";
-import './Reviews.css'
+
 import Review from "./Reviews/Review";
 import reviews from "../../data/reviews/reviews";
-
+import styles from './Reviews.module.scss'
 
 function Reviews(){
   return (
-    <div id="reviews">
-      <div className="reviews">
-        <span className="reviews__title">Отзывы</span>
-        <div className="reviews__cards">
+    <div className={styles.reviews} id="reviews">
+      <span className={styles.reviews__title}>Отзывы</span>
+        <div className={styles.reviews__cards}>
           {reviews.map((review) =>(
             <Review
               key={review.id}
@@ -20,7 +19,6 @@ function Reviews(){
             />
           ))}
         </div>
-      </div>
     </div>
   )
 }

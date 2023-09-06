@@ -1,0 +1,32 @@
+@import '../../scss/mixins';
+.how {
+
+    padding: 6rem 2rem 10rem 2rem;
+    min-width: 100%;
+    min-height: 62.5rem;
+    max-height: 62.5rem;
+    background: var(--color-main-light);
+    color: var(--color-main-light);
+    border-top: solid 5rem var(--color-yellow-orange);
+    background-image: url('./background-middle.png');
+    &__wrapperTop {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 10rem;
+    }
+    &__title {
+        @include title;
+    }
+    &__btn {
+        @include button-white;
+        @include font-no-color(var(--fw-7), var(--fs-24), var(--fh-28));
+        padding: 1.5rem 7.5rem;
+        margin-left: 3.3rem;
+    }
+    &__steps {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
