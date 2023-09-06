@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import rub from '../currency.svg';
 
-import styles from './PopoverItem.module.scss';
+import styles from "./PopoverItem.module.scss";
 
 function PopoverItem({ type, priceDep, priceArr }) {
   let card;
