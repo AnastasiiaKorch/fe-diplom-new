@@ -18,8 +18,10 @@ import sidebarSelectSlice from "./slices/sidebarSelectSlice";
 import trainsSlice from "./slices/trainsSlice";
 import seatsSlice from "./slices/seatsSlice";
 import lastTicketsSlice from "./slices/lastTicketsSlice";
-
+import orderConfirmationSlice from "./slices/orderConfirmationSlice";
 import passengersSlice from "./slices/passengersSlice";
+import numOfpassengersSlice from "./slices/numOfpassengersSlice";
+import personalDataSlice from "./slices/personalDataSlice";
 
 
 
@@ -61,13 +63,20 @@ const seatsPersistConfig = {
   blacklist: ['loading','error'],
 };
 
-
+const numOfPassengersPersistConfig = {
+  key: 'numOfPassengers',
+  storage,
+};
 
 const passengersPersistConfig = {
   key: 'passengers',
   storage,
 };
 
+const personalDataPersistConfig = {
+  key: 'personalData',
+  storage,
+};
 
 
 const orderConfig = {
@@ -82,11 +91,17 @@ const reducer = combineReducers({
   sort: persistReducer(sortPersistConfig, sortSlice.reducer),
   train: persistReducer(trainPersistConfig, trainSlice.reducer),
   seats: persistReducer(seatsPersistConfig,seatsSlice.reducer),
-
+  numOfPassengers: persistReducer(
+    numOfPassengersPersistConfig,
+    numOfpassengersSlice.reducer
+  ),
   passengers: persistReducer(passengersPersistConfig, passengersSlice.reducer),
-
+  personalData: persistReducer(
+    personalDataPersistConfig,
+    personalDataSlice.reducer
+  ),
   order: persistReducer(orderConfig, orderSlice.reducer),
-
+  orderConfirmation: orderConfirmationSlice.reducer,
   lastTickets: lastTicketsSlice.reducer,
 });
 
