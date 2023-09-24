@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fe-diplom-new/static/css/main.979b382f.css",
-    "main.js": "/fe-diplom-new/static/js/main.2e8c592e.js",
+    "main.css": "/fe-diplom-new/static/css/main.2952c20a.css",
+    "main.js": "/fe-diplom-new/static/js/main.2314a19d.js",
     "static/media/background-success.png": "/fe-diplom-new/static/media/background-success.f4c572a064afd726e932.png",
     "static/media/background-main.png": "/fe-diplom-new/static/media/background-main.342962d46ac521ac491d.png",
     "static/media/background-middle.png": "/fe-diplom-new/static/media/background-middle.36e82725212d69a1c278.png",
@@ -46,6 +46,7 @@
     "static/media/phone.svg": "/fe-diplom-new/static/media/phone.a14a18b3d296e2341ed8b24242a315b6.svg",
     "static/media/error.svg": "/fe-diplom-new/static/media/error.f617ffc64fffb160643e5d9b9871dac8.svg",
     "static/media/order.svg": "/fe-diplom-new/static/media/order.b3ca47c19a05f94c0d5580887f2ea91a.svg",
+    "static/media/icon.svg": "/fe-diplom-new/static/media/icon.af831362b38586b471c828a30df6363c.svg",
     "index.html": "/fe-diplom-new/index.html",
     "static/media/plus-round.svg": "/fe-diplom-new/static/media/plus-round.7d74051c9a88c50e7d7420653521dd16.svg",
     "static/media/info.svg": "/fe-diplom-new/static/media/info.8160a75875ac750a5600fe36a83a6418.svg",
@@ -77,11 +78,11 @@
     "static/media/off.svg": "/fe-diplom-new/static/media/off.78444e4ad77121b5751a189b447e409b.svg",
     "static/media/default.less": "/fe-diplom-new/static/media/default.003f90b383291c3b90da.less",
     "static/media/index.less": "/fe-diplom-new/static/media/index.512735b3dccd7d4b3088.less",
-    "main.979b382f.css.map": "/fe-diplom-new/static/css/main.979b382f.css.map",
-    "main.2e8c592e.js.map": "/fe-diplom-new/static/js/main.2e8c592e.js.map"
+    "main.2952c20a.css.map": "/fe-diplom-new/static/css/main.2952c20a.css.map",
+    "main.2314a19d.js.map": "/fe-diplom-new/static/js/main.2314a19d.js.map"
   },
   "entrypoints": [
-    "static/css/main.979b382f.css",
-    "static/js/main.2e8c592e.js"
+    "static/css/main.2952c20a.css",
+    "static/js/main.2314a19d.js"
   ]
 }
