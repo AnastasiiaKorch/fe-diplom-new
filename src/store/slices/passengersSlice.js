@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 import { createSlice } from '@reduxjs/toolkit';
 
-import fieldNames from "../../components/PaymentOptions /fieldNames";
+import fieldNames from "../../components/PaymentOptions/fieldNames";
 
 const savedData = localStorage.getItem('passengers');
 const empty = {

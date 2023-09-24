@@ -5,52 +5,61 @@ import Layout from "../../components/Layout/Layout";
 import MainSearchBlock from "../../components/MainSearchBlock/MainSearchBlock";
 import ProgressBar from "../../components/ProgressBar/ProgressBar";
 import SidebarDetails from "../../components/SidebarDetails/SidebarDetails";
+import OrderConfirmation from "../../components/OrderConfirmation/OrderConfirmation";
 import Redirect from "../../components/Redirect /Redirect";
-import PassengersSelection from "../../components/PassengersSelection/PassengersSelection";
 
 import {selectSelectedSeats} from "../../store/slices/seatsSlice";
 import {selectIndex} from "../../store/slices/trainSlice";
+import {selectPassengers} from "../../store/slices/passengersSlice";
+import {selectPersonalData} from "../../store/slices/personalDataSlice";
 
 import widthOptions from "../../components/MainSearchBlock/widthOptions";
 import picsOptions from "../../components/Layout/picsOptions";
 import directions from "../../data/directions";
-import styles from './PassengersPage.module.scss';
+import fieldNames from "../../components/PaymentOptions/fieldNames";
+import styles from './OrderConfirmationPage.module.scss';
 
-function PassengersPage(){
+function OrderConfirmationPage(){
   const seatsDep = useSelector(selectSelectedSeats)[directions.departure];
   const seatsArr = useSelector(selectSelectedSeats)[directions.arrival];
   const selectedTrainIndex = useSelector(selectIndex);
+  const passengers= useSelector(selectPassengers);
+  const paymentOption = useSelector(selectPersonalData)[fieldNames.paymentMethod];
 
   let midBody;
+
   if(
-    (seatsDep.length > 0 || seatsArr.length > 0) &&
-    selectedTrainIndex !==null
+    (seatsDep.length > 0 || seatsArr > 0) &&
+    selectedTrainIndex !== null &&
+    passengers.length > 0 &&
+    paymentOption
   ){
     midBody = (
       <>
-      <div>
-        <SidebarDetails/>
-      </div>
+        <div>
+          <SidebarDetails />
+        </div>
         <div className={styles['wrapper-main']}>
-          <PassengersSelection/>
+          <OrderConfirmation />
         </div>
       </>
     );
   } else {
-    midBody= <Redirect/>;
+    midBody = <Redirect />;
   }
 
   const body = (
     <>
-    <ProgressBar step={2}/>
+      <ProgressBar step={4} />
       <div className={styles.body}>{midBody}</div>
     </>
   );
 
-  return(
+  return (
     <Layout pic={picsOptions.search} body={body}>
-      <MainSearchBlock width={widthOptions.wide}/>
+      <MainSearchBlock width={widthOptions.wide} />
     </Layout>
   );
 }
-export default PassengersPage;
+
+export default OrderConfirmationPage;
