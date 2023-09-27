@@ -36,7 +36,7 @@ const rules = {
       required: true,
       message: 'Введите номер телефона в формате 9111111111',
       type: 'number',
-      min: 9111111111,
+      min: 9000000000,
       max: 9999999999,
     },
   ],

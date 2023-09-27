@@ -8,7 +8,8 @@ import links from "./data/links";
 import PassengersPage from "./pages/PassengersPage/PassengersPage";
 import PaymentOptionPage from "./pages/PaymentOptionsPage/PaymentOptionPage";
 import OrderConfirmationPage from "./pages/OrderConfirmationPage/OrderConfirmationPage";
-
+import SuccessfulOrderPage from "./pages/SuccessfulOrderPage/SuccessfulOrderPage";
+import ErrorPage from "./pages/ErrorPage/ErrorPage";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Route path={links.passengers} element={<PassengersPage/>}/>
         <Route path={links.paymentOptions} element={<PaymentOptionPage/>}/>
         <Route path={links.confirmOrder} element={<OrderConfirmationPage/>}/>
+        <Route path={links.success} element={<SuccessfulOrderPage/>}/>
+        <Route path="*" element={<ErrorPage/>}/>
       </Routes>
     </BrowserRouter>
   );
